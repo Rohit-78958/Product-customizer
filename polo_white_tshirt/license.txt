@@ -1,0 +1,11 @@
+Model Information:
+* title:	Polo_white tshirt
+* source:	https://sketchfab.com/3d-models/polo-white-tshirt-a0c1185e7da24a9484c1055bb27b379f
+* author:	mdsinteractive (https://sketchfab.com/mdsinteractive)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Polo_white tshirt" (https://sketchfab.com/3d-models/polo-white-tshirt-a0c1185e7da24a9484c1055bb27b379f) by mdsinteractive (https://sketchfab.com/mdsinteractive) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
