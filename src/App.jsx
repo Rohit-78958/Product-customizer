@@ -1,6 +1,6 @@
 import { Canvas, useFrame } from '@react-three/fiber'
 import React, { useState, useRef, useEffect } from 'react'
-import { Html, OrbitControls, useGLTF } from '@react-three/drei'
+import { Html, OrbitControls, Stats, useGLTF } from '@react-three/drei'
 import { useNavigate } from 'react-router-dom';
 import { DiGulp } from "react-icons/di";
 import ShirtModel from './components/ShirtModel';
@@ -76,6 +76,7 @@ function App() {
           <Canvas>
             <OrbitControls enableZoom={false} enablePan={false} minPolarAngle={Math.PI / 2} maxPolarAngle={Math.PI / 2} />
             <directionalLight position={[1, 1, 1]} />
+            {/* <Stats/> */}
             <ambientLight intensity={1} />
             {selectedModel === 'shirt' ? (
               <ShirtModel color={selectedColor} />
@@ -86,6 +87,14 @@ function App() {
                 accentColor={selectedAccentColor} 
               />
             )}
+            {/* <Html>
+              <button 
+          className="ml-4 transition-color duration-500 ease-in-out transform hover:scale-110 border-2 border-black rounded-lg px-5 py-2"
+          onClick={() => navigate('/')} // Navigate to main page
+              >
+                <strong>GO BACK</strong>
+              </button>
+            </Html> */}
             {/* <Html>
               <ColorPallete colors={colors} selectedModel={selectedModel} selectedColor={selectedColor} selectedMainColor={selectedMainColor} selectedSideColor={selectedSideColor} selectedAccentColor={selectedAccentColor} handleColorChange={handleColorChange} handleSideColorChange={handleSideColorChange} handleAccentColorChange={handleAccentColorChange}/>
             </Html> */}
